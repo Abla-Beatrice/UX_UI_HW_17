@@ -1,0 +1,132 @@
+/* Font Styling */
+h1 {font-family: 'Anton', sans-serif;
+    font-size: 40px;}
+h2{font-family: 'Anton', sans-serif;
+    font-size: 30px;}
+p{font-family: 'Montserrat', sans-serif;
+    font-size: 16px;}
+li {font-family: 'Montserrat', sans-serif;}
+a{font-family: 'Montserrat', sans-serif;
+    font-size: 16px;}
+
+/* Navigation */
+#navBar {
+    display:inline-flex;
+    flex-direction: row;
+    box-shadow: 0 8px 8px 0 rgba(165, 165, 165, 0.24);
+    width: 100%;
+    padding: 0%;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    align-items:center;
+    justify-content:flex-end;
+    margin: 0px 15px 0px 100px;
+}
+
+.navigation p {
+    cursor: pointer;
+    padding: 2%;
+}
+
+.navigation a {
+    color:black;
+    text-decoration:none;
+}
+
+.navigation a:hover {
+    text-decoration:underline
+}
+
+.logo{
+    width:300px;
+    height:150px;
+    padding: 50px;
+    text-align:center;
+    cursor: pointer;
+    margin:auto;
+}
+
+#buttonTop {
+    background-color:#0b0b0b;
+    border: none;
+    Color: rgb(247, 243, 243);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    border-radius: 8px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#buttonTop:hover {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24);
+    background-color:#402E24;
+    cursor: pointer;
+}
+
+
+/* Body */
+#heroImg {
+    margin: 0px 10%;
+    display: grid;
+    min-height: 500px;
+    height: 40vh;
+    padding: 5%;
+    grid-template-columns: 60%, 40%;
+    grid-template-areas:
+  "content heroImage"
+}
+
+.content{
+    grid-area: content;
+    align-items:right;
+    padding: 2%;
+}
+.heroImage {
+    grid-area:heroImage;
+    align-items:center;
+    width:40%;
+    display:flex;
+}
+/* Footer */
+footer {
+    background-color: #D9BBA0;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    display:inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+.block {
+    display:block;
+    cursor: pointer;
+    color:#8C5423;
+}
+.blockTitle {
+    display:block;
+    color:white;
+    text-decoration: underline;
+}
+.block a{
+    color:#402E24;
+    text-decoration:none;
+}
+.block a:hover {
+    text-decoration:underline;
+}
+.copyright {
+    font-size: 12px;
+}
+ul {
+    width: 50%;
+    margin-left:auto;
+}
